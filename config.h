@@ -109,29 +109,48 @@ unsigned int tabspaces = 8;
 /* bg opacity */
 float alpha = 0.92;
 
-/* Terminal colors (16 first used in escape sequence) */
+/* Terminal colors (16 first used in escape sequence) */ /* hard contrast: #1d2021 / soft contrast: #32302f */
 static const char *colorname[] = {
-	"#282828", /* hard contrast: #1d2021 / soft contrast: #32302f */
-	"#cc241d",
-	"#98971a",
-	"#d79921",
-	"#458588",
-	"#b16286",
-	"#689d6a",
-	"#a89984",
-	"#928374",
-	"#fb4934",
-	"#b8bb26",
-	"#fabd2f",
-	"#83a598",
-	"#d3869b",
-	"#8ec07c",
-	"#ebdbb2",
+	//"#282828", 
+	//"#cc241d",
+	//"#98971a",
+	//"#d79921",
+	//"#458588",
+	//"#b16286",
+	//"#689d6a",
+	//"#a89984",
+	//"#928374",
+	//"#fb4934",
+	//"#b8bb26",
+	//"#fabd2f",
+	//"#83a598",
+	//"#d3869b",
+	//"#8ec07c",
+	//"#ebdbb2",
+	"#000000", 
+	"#cd0000",
+	"#00cd00",
+	"#cdcd00",
+	"#0000cd",
+	"#cd00cd",
+	"#00cdcd",
+	"#e5e5e5",
+	"#4d4d4d",
+	"#ff0000",
+	"#00ff00",
+	"#ffff00",
+	"#0000ff",
+	"#ff00ff",
+	"#00ffff",
+	"#aabac8",
 	[255] = 0,
 	/* more colors can be added after 255 to use with DefaultXX */
-	"#282828", /* 256 -> bg */
-	"#ffffff", /* 257 -> fg */
-	"#add8e6", /* 258 -> cursor */
+	//"#282828", /* 256 -> bg */
+	//"#ffffff", /* 257 -> fg */
+	//"#add8e6", /* 258 -> cursor */
+    "#000000",
+    "#e5e5e5",
+    "#8f1000", 
 };
 
 
